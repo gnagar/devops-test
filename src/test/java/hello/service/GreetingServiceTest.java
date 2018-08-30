@@ -39,10 +39,10 @@ public class GreetingServiceTest {
 		checkExpectations(21, "Night");
 	}
 	
-	@Test
+	/*@Test
 	public void testThatGreetingMethodReturnsAfternoonWhenTheTimeOfTheDayIs5PM() throws Exception {
 		checkExpectations(17, "Afternoon");
-	}
+	}*/
 
 	private void checkExpectations(int hour, String expectation) {
 		calendar.set(Calendar.HOUR_OF_DAY, hour);
